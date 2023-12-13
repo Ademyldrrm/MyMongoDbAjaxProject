@@ -1,0 +1,17 @@
+﻿@model MyMongoDbAjaxProject.DAL.Entities.Category
+@{
+    ViewData["Title"] = "CreateCategory";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Kategori Eklme Sayfası</h1>
+<form method="post">
+    <label>Kategori Adı</label>
+    <br />
+    <input type="text"  asp-for="CategoryName" class="form-control"/>
+    <br />
+    <button class="btn btn-primary">Kategoriyi Kaydet</button>
+
+
+</form>
+
